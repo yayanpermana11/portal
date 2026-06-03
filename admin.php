@@ -145,19 +145,6 @@ if (empty($_SESSION['logged_in'])) {
                 <small style="color: #64748b;">Gunakan <strong>Ctrl+klik</strong> (Windows) atau <strong>Command+klik</strong> (Mac) untuk memilih beberapa.</small>
             </div>
             <div class="form-group">
-                <label>🎨 Ikon (Emoji atau URL gambar)</label>
-                <input type="text" id="linkIcon" placeholder="📘 atau /img/logo.png">
-                <div id="iconPreview"><img id="iconPreviewImg" src="" alt=""></div>
-            </div>
-            <div class="form-group" style="background: #f8fafc; padding: 12px; border-radius: 8px; border: 1px solid var(--border);">
-                <label style="font-size:0.9rem; margin-bottom:8px;">📁 Unggah Gambar Baru (PNG, JPG, SVG, maks 2MB)</label>
-                <div class="upload-row">
-                    <input type="file" id="iconFile" accept="image/*" hidden>
-                    <button type="button" class="upload-btn" id="uploadIconBtn">📁 Pilih Gambar</button>
-                    <span id="uploadStatus"></span>
-                </div>
-            </div>
-            <div class="form-group">
                 <label>🌈 Warna Ikon</label>
                 <div class="color-options" id="colorOptions">
                     <span class="color-opt selected" data-color="color-1" style="background:#eef2ff;"></span>
